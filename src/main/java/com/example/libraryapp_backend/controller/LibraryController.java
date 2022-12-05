@@ -42,4 +42,9 @@ public class LibraryController {
     public String deletebook(){
         return "Welcome to deletebook";
     }
+
+    @GetMapping("/viewbook")
+    public String viewbook(){
+        return "Welcome to viewbook";
+    }
 }
