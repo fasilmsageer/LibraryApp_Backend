@@ -47,4 +47,9 @@ public class LibraryController {
     public String viewbook(){
         return "Welcome to viewbook";
     }
+
+    @PostMapping("/editbook")
+    public String editbook(){
+        return "Welcome to editbook";
+    }
 }
