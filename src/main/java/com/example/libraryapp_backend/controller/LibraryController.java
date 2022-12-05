@@ -32,4 +32,9 @@ public class LibraryController {
     public String addbook(){
         return "Welcome to addbook";
     }
+
+    @PostMapping("/searchbook")
+    public String searchbook(){
+        return "Welcome to searchbook";
+    }
 }
