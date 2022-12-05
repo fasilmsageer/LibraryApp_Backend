@@ -17,4 +17,9 @@ public class LibraryController {
     public String adminlogin(){
         return "Welcome to admin login";
     }
+
+    @PostMapping("/userlogin")
+    public String userlogin(){
+        return "Welcome to user login";
+    }
 }
