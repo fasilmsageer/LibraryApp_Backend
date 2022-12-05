@@ -52,4 +52,9 @@ public class LibraryController {
     public String editbook(){
         return "Welcome to editbook";
     }
+
+    @PostMapping("/issuebook")
+    public String issuebook(){
+        return "Welcome to issuebook";
+    }
 }
