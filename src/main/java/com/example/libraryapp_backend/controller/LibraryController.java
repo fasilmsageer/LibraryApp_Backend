@@ -37,4 +37,9 @@ public class LibraryController {
     public String searchbook(){
         return "Welcome to searchbook";
     }
+
+    @PostMapping("/deletebook")
+    public String deletebook(){
+        return "Welcome to deletebook";
+    }
 }
